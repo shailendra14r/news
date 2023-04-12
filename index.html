@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="favicon" type="image/x-icon" href="news-resource/favicon.ico">
+    <title>NewsNation:Make your dailies informative</title>
+    <link rel="stylesheet" href="website.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark bg-gradient">
+    <div class="container-fluid">
+      <a class="navbar-brand text-danger" href="#">NewsNation</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#">Trending</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu bg-dark">
+              <li><a class="dropdown-item text-light hover" href="#">Sports</a></li>
+              <li><a class="dropdown-item text-light hover" href="#">Weather</a></li>
+              <li><a class="dropdown-item text-light hover" href="#">Bussiness</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light">Services</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input id="search" class="form-control me-2" type="search" placeholder="Enter here" aria-label="Search">
+          <button id="btn" type="button" class="btn btn-outline-secondary text-white">Search</button>
+        </form>
+        <a href="Signup (2).html">
+        <button id="btn" type="button" class="btn btn-outline-secondary bg-primary bg-gradient mx-2 text-white">Sign Up</button></a>
+      </div>
+    </div>
+  </nav>
+  <div id="headline" class="headline bg-body-secondary">
+    <div id="forex" class="forex">
+      <h5 class="heading">Currency Exchange Rate</h5>
+    </div>
+    <h3 class="heading text-danger">Breaking News</h3>
+  </div><div id="newsarea" class="newsarea">
+    <div class="contact">
+      <a href="#" ><img class="icons" src="news-resource/facebook.png"></a>
+      <a href="#" ><img class="icons" src="news-resource/whatsapp.png"></a>
+      <a href="#" ><img class="icons" src="news-resource/instagram.png"></a>
+      <a href="#" ><img class="icons" src="news-resource/linkedin.png"></a>
+      <a href="#" ><img class="icons" src="news-resource/telegram.png"></a>
+    </div>
+    <div id="carouselExample" class="carousel slide carousel-fade size center" data-bs-ride="carousel">
+        <div id="setitem" class="carousel-inner size">
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="detailnews" id="detailnews">
+      </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="website.js"></script>
+</html>
